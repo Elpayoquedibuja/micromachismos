@@ -303,7 +303,7 @@ ul li ul {
 .cursiva {
   font-style: italic;
 }
-.el_proyecto {
+.el_proyecto, .quien_soy {
   background-color: #26a9e0;
   color: #fff;
   font-family: open Sans;
@@ -387,19 +387,12 @@ ul li ul {
 }
 .quien_soy {
   color: #6f6d6e;
-  font-style: italic;
 }
 .quien_soy {
   background-color: #fce3ef;
-  height: auto;
   padding-bottom: 20px;
 }
-.quien_soy p {
-  font-family: times;
-  font-weight: 400;
-  font-style: italic;
-  font-size: 23px;
-}
+
 .quien_soy ul li {
   list-style: none;
 }
