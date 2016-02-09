@@ -242,6 +242,7 @@ h3 {
 }
 ul {
   padding-left: 1em;
+  list-style: none;
 }
 ul li ul {
   margin: 1rem 0;
@@ -303,11 +304,7 @@ ul li ul {
 .cursiva {
   font-style: italic;
 }
-<<<<<<< HEAD
-.el_proyecto {
-=======
 .el_proyecto, .quien_soy {
->>>>>>> remotes/origin/master
   background-color: #26a9e0;
   color: #fff;
   font-family: open Sans;
@@ -391,21 +388,6 @@ ul li ul {
 }
 .quien_soy {
   color: #6f6d6e;
-<<<<<<< HEAD
-  font-style: italic;
-}
-.quien_soy {
-  background-color: #fce3ef;
-  height: auto;
-  padding-bottom: 20px;
-}
-.quien_soy p {
-  font-family: times;
-  font-weight: 400;
-  font-style: italic;
-  font-size: 23px;
-}
-=======
 }
 .quien_soy {
   background-color: #fce3ef;
