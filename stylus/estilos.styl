@@ -1,0 +1,353 @@
+@import "normalize.styl"
+gris_oscuro = #333333
+gris_claro = #818181
+gris_texto = #6f6d6e
+rosa_mm = #FF5EAA
+rosa_medio = #FABDDA
+rosa_claro = #FCE3EF
+azul_pp = #00a1d9
+// pp = pantalón protagonista ;)
+azul_oscuro = #2c85dd
+azul_player = #26A9E0
+
+/* Línea de código para activar stylus
+en la terminal
+--------------------
+stylus -c -w -o css/ stylus/estilos.styl
+stylus -w -o css/ stylus/estilos.styl
+git push -u origin master
+--------------------
+*/
+
+a
+	color azul_pp
+
+article
+	height auto
+	padding-top 0
+	padding 0
+	margin 0
+
+body
+	color azul_oscuro
+	width 100%
+	background-image url('../img/fnd-micromachismos-pattern.png')
+
+
+figure
+	margin 0
+	padding 0
+
+figure img
+	margin 0
+	padding 0
+
+footer
+	background-color rosa_mm// #3E3D40
+	height 66px
+	color gris_oscuro
+	line-height 66px
+	text-align center
+	padding-top 80px
+	margin-top 100px
+
+header
+	background-color rosa_mm
+	color white
+	padding 1rem
+
+h1
+	display block
+	font-family 'Open Sans', 'verdana'
+	font-weight normal
+	text-align center
+	//text-shadow 0 1px 0 rgba(228, 76, 230, 0.75)
+
+h2
+	color #FEEDF5
+	font-family 'Open Sans', 'verdana'
+	font-size 1.5rem
+	font-weight normal
+
+h3
+	color white //rosa_mm
+	font-family 'Open Sans', 'verdana'
+	font-size 1.5rem
+	font-weight 600
+
+ul
+	padding-left 1em
+
+ul li ul
+	margin 1rem 0
+
+#img-portada
+	width 100%
+	height 500px
+	background-image url('../img/micromachismos-tablet.jpg')
+	background-size auto 100%
+	background-color yellow
+	background-repeat no-repeat
+	text-align center
+
+#img-portada img
+	height 100%
+
+#img-portada-web
+	text-align center
+	background-image url('../img/fnd-micromachismos-chico-protagonista.png')
+	padding 0
+	margin 0
+	background-color red
+	height 444px
+
+#linkedin, #twitter, #github
+	display block
+
+#main
+	background-color white
+	margin 0 auto
+	max-width 500px
+	width 100%
+
+#redes-sociales-quien-soy img, #redes-sociales-proyecto img
+	width 100%
+
+.arial
+	font-family arial
+	font-size 16px
+	font-style normal
+	font-weight bold
+
+.alinear_a_la_izquierda
+	text-align left
+
+.azul_player
+	color azul_player
+	font-weight bold
+
+.blanco
+	color white
+
+.centrar
+	text-align center
+
+.cursiva
+	font-style italic
+
+.el_proyecto
+	background-color azul_player
+	color white
+	font-family open Sans
+	font-size 20px
+	height auto
+	margin bottom 0
+	padding-bottom 100px
+
+
+.el_proyecto img
+	width 80%
+
+.fontface h2
+	font-size 1.2rem
+
+.font-size-2pt-menos
+	font-size 18px
+
+.font-size-2pt-menos-2
+	font-size 21px
+
+.font-size-4pt-menos
+	font-size 18px
+
+.font-style-normal
+	font-style normal
+.gris_texto
+	color gris_texto
+
+.h4
+	color gris_claro
+	font-weight normal
+
+
+.kale-dor-kayiko_img img
+	padding-left 2rem
+	width 20%
+
+.kale-dor-kayiko_img2 img
+	padding-left 2rem
+	width 60%
+
+.linea-arriba
+	border-top 1px solid #777878
+	padding-top 25px
+
+.negrita
+	font-weight bold
+
+.nombre
+	font-size 0.8rem
+
+.margin-arriba-y-abajo-no
+	margin-top 0
+	padding-top 0
+
+.padding_principal
+	padding-left 1rem
+	padding-right 1rem
+
+.principal
+	font-size 1.6rem
+
+.padding-bottom_0
+	margin-bottom 0
+
+.padding-bottom
+	margin-bottom 0.5rem
+
+.padding-top
+	padding-top 0.5rem
+
+.padding-top_1
+	padding-top 1.5rem
+
+.padding-top_2
+	padding-top 3rem
+
+.padding-margin-top-0
+	margin-top 0
+	padding-top 0
+
+.quien_soy
+	color gris_texto
+	font-style italic
+
+.quien_soy
+	background-color rosa_claro
+	height auto
+	padding-bottom 20px
+
+.quien_soy p
+	font-family times
+	font-weight 400
+	font-style italic
+	font-size 23px
+
+.quien_soy ul li
+	list-style none
+
+.quien_soy ul li ul li
+	font-size 19px
+	width 100%
+
+.rectangulo
+	border-top 1px solid gris_claro
+	border-bottom 1px solid gris_claro
+	padding 0 0.8rem 0 0
+
+.reproductor
+	padding-top 1.5rem
+
+.resaltar
+	border-top 1px solid #777878
+	border-bottom 1px solid #777878
+	margin 50px 0
+	padding 25px 14px
+
+.resaltar-solo-bottom
+	border-bottom 1px solid #777878
+	margin 10px 0
+	padding-left 14px
+	padding-right 14px
+	margin-bottom 10px
+	padding-bottom 40px
+
+.resaltar-solo-top
+	border-top 1px solid #777878
+	margin 10px 0
+	padding-left 14px
+	padding-right 14px
+	margin-top 10px
+	padding-top 40px
+
+.sin-border-bottom
+	border-bottom none
+
+.sin-border-top
+	border-top none
+
+.tabulado
+	padding-left 0.9rem
+
+.time
+	font-family times
+	font-weight 400
+	font-style italic
+	font-size 23px
+
+
+@media only screen and (min-width: 700px) {
+	h1 {
+		text-align left;
+	}
+
+	h3 {
+		padding-left: 4rem;
+		padding-right: 3rem;
+	}
+	ol, li {
+		padding-left: 0rem;
+		padding-right: 3rem;
+		-webkit-margin-before: 1rem;
+		-webkit-margin-end: 10rem;
+		-webkit-margin-start: 4rem;
+		-moz-margin-before: 1rem;
+		-moz-margin-end: 10rem;
+		-moz-margin-start: 4rem;
+	}
+	p {
+		font-size: 20px;
+		padding-left: 4rem;
+		padding-right: 3rem;
+	}
+	ul {
+	padding-left: 2em;
+	}
+	#header {
+		width 100%;
+	}
+	#linkedin, #twitter, #github {
+	display: inline-block;
+	width: 49%;
+	}
+	#main {
+		max-width: 850px;
+	}
+	.article p {
+		// margin-left: 4rem;
+	}
+	.container, .inicio {
+		width: 100%;
+	}
+	.el_proyecto img {
+    	width: 40%;
+	}
+	.kale-dor-kayiko_img img {
+		padding-left: 8rem;
+		width: 7%;
+	}
+
+	.kale-dor-kayiko_img2 img {
+		padding-left: 5rem;
+		width: 30%;
+	}
+
+}
+
+
+
+
+
+
+
+
