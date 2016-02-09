@@ -303,7 +303,11 @@ ul li ul {
 .cursiva {
   font-style: italic;
 }
+<<<<<<< HEAD
 .el_proyecto {
+=======
+.el_proyecto, .quien_soy {
+>>>>>>> remotes/origin/master
   background-color: #26a9e0;
   color: #fff;
   font-family: open Sans;
@@ -387,6 +391,7 @@ ul li ul {
 }
 .quien_soy {
   color: #6f6d6e;
+<<<<<<< HEAD
   font-style: italic;
 }
 .quien_soy {
@@ -400,6 +405,14 @@ ul li ul {
   font-style: italic;
   font-size: 23px;
 }
+=======
+}
+.quien_soy {
+  background-color: #fce3ef;
+  padding-bottom: 20px;
+}
+
+>>>>>>> remotes/origin/master
 .quien_soy ul li {
   list-style: none;
 }
