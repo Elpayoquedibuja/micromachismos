@@ -267,6 +267,14 @@ ul li ul {
   background-color: #f00;
   height: 444px;
 }
+
+#info-autor {
+
+}
+
+#info-proyecto {
+
+}
 #linkedin,
 #twitter,
 #github {
@@ -487,11 +495,24 @@ ul li ul {
   #header {
     width: 100%;
   }
+
+  #info-autor, #info-proyecto {
+
+    display: inline-block;
+    vertical-align: top;
+    width: 49%;
+    text-align: center;
+
+  }
+
+  #info-autor h4, #info-proyecto h4 {
+    height: 70px;
+  }
   #linkedin,
   #twitter,
   #github {
     display: inline-block;
-    width: 49%;
+
   }
   #img-portada-web {
     text-align: center;
