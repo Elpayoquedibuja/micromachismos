@@ -425,6 +425,9 @@ ul li ul {
   border-bottom: 1px solid #818181;
   padding: 0 0.8rem 0 0;
 }
+.redes-sociales-logos {
+  widht: 50%;
+}
 .reproductor {
   padding-top: 1.5rem;
 }
@@ -517,10 +520,10 @@ ul li ul {
   #img-portada-web {
     text-align: center;
     padding: 0;
-    margin: 0;
+    margin: 0 0 0 20%;
     background-color: #f00;
     height: 444px;
-    width: 40%;
+    width: 20%;
   }
   #main {
     max-width: 850px;
@@ -528,8 +531,9 @@ ul li ul {
   #subtitulo-principal {
     height: 444px;
     background-color: transparent;
-    width: 58%;
-    margin-top: 10%;
+    width: 48%;
+    margin-top: 40% 10% 0 0;
+    padding-top: 10%;
   }
   #subtitulo-principal h1 {
     padding: 0px 10% 0 10%;
