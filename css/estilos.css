@@ -245,6 +245,7 @@ h3 {
   font-size: 1.5rem;
   font-weight: 600;
 }
+
 ul {
   padding-left: 1em;
   list-style: none;
@@ -310,6 +311,7 @@ ul li ul {
   font-size: 2.5em;
   font-family: sans-serif;
   font-weight: normal;
+  padding: 0 5% 0 5%;
 }
 .arial {
   font-family: arial;
@@ -473,6 +475,9 @@ ul li ul {
 .sin-border-top {
   border-top: none;
 }
+.sobre_fondo_claro {
+  color: #2c85dd;
+}
 .tabulado {
   padding-left: 0.9rem;
 }
@@ -560,6 +565,7 @@ ul li ul {
   }
 
   #slogan {
+    padding-top: 12%;
     width: 40%;
   }
 
