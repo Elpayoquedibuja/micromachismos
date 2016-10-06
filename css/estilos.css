@@ -267,10 +267,8 @@ ul li ul {
 }
 #img-portada-web {
   text-align: center;
-  background-image: url("../img/fnd-micromachismos-chico-protagonista.png");
   padding: 0;
   margin: 0;
-  background-color: #f00;
   height: 444px;
 }
 
@@ -425,7 +423,7 @@ ul li ul {
   padding-bottom: 20px;
 }
 
->>>>>>> remotes/origin/master
+
 .quien_soy ul li {
   list-style: none;
 }
@@ -540,7 +538,6 @@ ul li ul {
     text-align: center;
     padding: 0;
     margin: 0 0 0 20%;
-    background-color: #f00;
     height: 444px;
     width: 20%;
   }
@@ -572,7 +569,7 @@ ul li ul {
   .container,
   .inicio {
     width: 100%;
-    background-image: url("../img/fnd-micromachismos-chico-protagonista.png");
+    /*background-image: url("../img/fnd-micromachismos-chico-protagonista.png");*/
 
   }
   .el_proyecto img {
