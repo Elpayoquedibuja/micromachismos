@@ -267,9 +267,23 @@ ul li ul {
 }
 #img-portada-web {
   text-align: center;
+  background-image: url("../img/fnd-micromachismos-chico-protagonista.png");
   padding: 0;
   margin: 0;
+  background-color: #f00;
   height: 444px;
+}
+
+#slogan {
+  background-color: white;
+  font-size: 2.5em;
+  font-family: Open Sans, sans-serif;
+  font-weight: normal;
+  margin: 0;
+  text-align: center;
+  height: auto;
+  vertical-align: top;
+  padding: 0 2% 0 2%;
 }
 
 #info-autor {
@@ -305,12 +319,7 @@ ul li ul {
   text-align: center;
 }
 
-#slogan {
-  font-size: 2.5em;
-  font-family: Open Sans, sans-serif;
-  font-weight: normal;
-  padding: 0 5% 0 5%;
-}
+
 .arial {
   font-family: arial;
   font-size: 16px;
@@ -415,6 +424,11 @@ ul li ul {
   margin-top: 0;
   padding-top: 0;
 }
+
+.promocion {
+  background-image: url("../img/fnd-micromachismos-chico-protagonista.png");
+  padding: 0;
+}
 .quien_soy {
   color: #6f6d6e;
 }
@@ -505,10 +519,11 @@ ul li ul {
     -moz-margin-start: 4rem;
   }
   p {
-    font-size: 20px;
+    /*font-size: 20px;*/
     padding-left: 4rem;
     padding-right: 3rem;
   }
+
   ul {
     padding-left: 2em;
   }
@@ -562,8 +577,11 @@ ul li ul {
   }
 
   #slogan {
-    padding-top: 12%;
-    width: 40%;
+    background-image: url("../img/fnd-micromachismos-chico-protagonista.png");
+    height: 444px;
+    padding: 0;
+    text-align: left;
+    width: 50%;
   }
 
   .container,
