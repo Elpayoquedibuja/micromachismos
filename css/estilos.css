@@ -286,6 +286,13 @@ ul li ul {
   height: 444px;
 }
 
+#luis-bonino {
+  background-color: #26a9e0;
+  padding: 10%;
+  vertical-align: top;
+  margin-top: 0;
+}
+
 #slogan-portada-web {
   background-color: white;
   font-size: 2.5em;
@@ -362,7 +369,7 @@ ul li ul {
   height: auto;
   margin-bottom: 0;
   margin-top: 0;
-  padding-bottom: 100px;
+  padding-bottom: 10px; // modificado
 }
 .el_proyecto img {
   width: 80%;
@@ -572,18 +579,34 @@ ul li ul {
     width: 100%;
   }
 
-  #img-descripcion-proyecto, #txt-el-proyecto {
+  #img-descripcion-proyecto, #txt-el-proyecto, #luis-bonino {
     display: inline-block;
     padding-top: 10%;
   }
 
-  #img-descripcion-proyecto {
+  #img-descripcion-proyecto, #luis-bonino {
     width: 40%;
     vertical-align: top;
   }
 
+  #luis-bonino {
+
+    padding-left: 0;
+    padding-righ: 0;
+    margin-left: 0;
+    margin-right: 0;
+    width: 30%;
+    border-right: 1px solid #76d9f3;
+  }
+
   #txt-el-proyecto {
     width: 55%;
+    float: right;
+
+  }
+
+  #img-descripcion-proyecto, #luis-bonino {
+      /* background-color: #085d9c; */
   }
 
   #info-autor, #info-proyecto {
