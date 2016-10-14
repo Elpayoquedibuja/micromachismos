@@ -244,6 +244,7 @@ h3 {
   font-family: 'Open Sans', 'verdana';
   font-size: 1.5rem;
   font-weight: 600;
+  margin-top: 0;
 }
 
 ul {
@@ -252,6 +253,17 @@ ul {
 }
 ul li ul {
   margin: 1rem 0;
+}
+
+#episodio-1 {
+  margin: 0;
+  padding: 0;
+  background-color: yellow;
+}
+
+#episodio-1 figure {
+  margin: 0;
+  padding: 0;
 }
 #img-portada {
   width: 100%;
@@ -274,7 +286,7 @@ ul li ul {
   height: 444px;
 }
 
-#slogan {
+#slogan-portada-web {
   background-color: white;
   font-size: 2.5em;
   font-family: Open Sans, sans-serif;
@@ -348,7 +360,8 @@ ul li ul {
   font-family: open Sans;
   font-size: 20px;
   height: auto;
-  margin: bottom 0;
+  margin-bottom: 0;
+  margin-top: 0;
   padding-bottom: 100px;
 }
 .el_proyecto img {
@@ -375,6 +388,16 @@ ul li ul {
 .h4 {
   color: #818181;
   font-weight: normal;
+}
+
+
+.imagenes {
+    background-color: #26a9e0;
+    text-align: center;
+}
+
+.imagenes img {
+  width: 70%;
 }
 .kale-dor-kayiko_img img {
   padding-left: 2rem;
@@ -499,6 +522,13 @@ ul li ul {
   font-style: italic;
   font-size: 23px;
 }
+
+/* MEDIA QUERY ********************************** */
+/* MEDIA QUERY ********************************** */
+/* MEDIA QUERY ********************************** */
+/* MEDIA QUERY ********************************** */
+/* MEDIA QUERY ********************************** */
+
 @media only screen and (min-width: 700px) {
   h1 {
     text-align: left;
@@ -510,13 +540,14 @@ ul li ul {
   ol,
   li {
     padding-left: 0rem;
-    padding-right: 3rem;
+    padding-right: 0;
     -webkit-margin-before: 1rem;
     -webkit-margin-end: 10rem;
     -webkit-margin-start: 4rem;
     -moz-margin-before: 1rem;
     -moz-margin-end: 10rem;
     -moz-margin-start: 4rem;
+    width: 80%;
   }
   p {
     /*font-size: 20px;*/
@@ -527,8 +558,32 @@ ul li ul {
   ul {
     padding-left: 2em;
   }
+
+  figure .reproductor {
+    margin: 0;
+    padding: 0;
+  }
+
+  #el-proyecto {
+    margin-top: 0;
+    background-color: #26a9e0;
+  }
   #header {
     width: 100%;
+  }
+
+  #img-descripcion-proyecto, #txt-el-proyecto {
+    display: inline-block;
+    padding-top: 10%;
+  }
+
+  #img-descripcion-proyecto {
+    width: 40%;
+    vertical-align: top;
+  }
+
+  #txt-el-proyecto {
+    width: 55%;
   }
 
   #info-autor, #info-proyecto {
@@ -571,12 +626,12 @@ ul li ul {
     font-size: 40px;
   }
 
-  #img-portada-web, #slogan {
+  #img-portada-web, #slogan-portada-web {
     display: inline-block;
     vertical-align: top;
   }
 
-  #slogan {
+  #slogan-portada-web {
     background-image: url("../img/fnd-micromachismos-chico-protagonista.png");
     height: 444px;
     padding: 0;
