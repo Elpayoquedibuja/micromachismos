@@ -255,6 +255,15 @@ ul li ul {
   margin: 1rem 0;
 }
 
+#copa-champions {
+  text-align: center;
+}
+
+#copa-champions img {
+  text-align: right;
+  width: 50%;
+}
+
 #episodio-1 {
   margin: 0;
   padding: 0;
@@ -569,6 +578,11 @@ ul li ul {
   figure .reproductor {
     margin: 0;
     padding: 0;
+  }
+
+  #copa-champions img {
+    text-align: right;
+    width: 25%;
   }
 
   #el-proyecto {
