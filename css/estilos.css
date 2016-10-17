@@ -318,6 +318,8 @@ ul li ul {
 
 }
 
+
+
 #info-proyecto {
 
 }
@@ -409,7 +411,6 @@ ul li ul {
   font-weight: normal;
 }
 
-
 .imagenes {
     background-color: #26a9e0;
     text-align: center;
@@ -417,6 +418,15 @@ ul li ul {
 
 .imagenes img {
   width: 70%;
+}
+
+.infografia-1 h3 {
+  padding: 10% 0 0 3%;
+  color: #2c85dd;
+}
+
+.infografia-1 h4 {
+  padding: 0 0 0 3%;
 }
 .kale-dor-kayiko_img img {
   padding-left: 2rem;
