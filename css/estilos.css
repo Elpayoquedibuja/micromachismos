@@ -428,6 +428,11 @@ ul li ul {
 .infografia-1 h4 {
   padding: 0 0 0 3%;
 }
+
+.infografia-1 p {
+  font-size: 20px;
+  padding: 0 0 0 3%;
+}
 .kale-dor-kayiko_img img {
   padding-left: 2rem;
   width: 20%;
