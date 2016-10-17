@@ -332,6 +332,9 @@ ul li ul {
   max-width: 500px;
   width: 100%;
 }
+#mujer img {
+  width: 100%;
+}
 #redes-sociales-quien-soy img,
 #redes-sociales-proyecto img {
   width: 100%;
