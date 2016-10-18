@@ -516,6 +516,10 @@ ul li ul {
 .reproductor {
   padding-top: 1.5rem;
 }
+
+.reproductor img {
+  width: 100%;
+}
 .resaltar {
   border-top: 1px solid #777878;
   border-bottom: 1px solid #777878;
