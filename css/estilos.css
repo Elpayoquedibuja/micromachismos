@@ -388,6 +388,10 @@ ul li ul {
 .el_proyecto img {
   width: 80%;
 }
+
+.episodio-1 h3 {
+  color: #2c85dd;
+}
 .fontface h2 {
   font-size: 1.2rem;
 }
@@ -421,7 +425,7 @@ ul li ul {
 }
 
 .infografia-1 h3 {
-  padding: 10% 0 0 3%;
+  padding: 10% 0 0 3%;// eliminar ************
   color: #2c85dd;
 }
 
@@ -467,6 +471,10 @@ ul li ul {
 }
 .padding-bottom {
   margin-bottom: 0.5rem;
+}
+
+.padding-texto {
+  padding: 10% 0 0 3%;
 }
 .padding-top {
   padding-top: 0.5rem;
