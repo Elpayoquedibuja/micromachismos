@@ -425,7 +425,6 @@ ul li ul {
 }
 
 .infografia-1 h3 {
-  padding: 10% 0 0 3%;// eliminar ************
   color: #2c85dd;
 }
 
@@ -435,7 +434,7 @@ ul li ul {
 
 .infografia-1 p {
   font-size: 20px;
-  padding: 0.5rem 1rem 0.3rem 1rem;
+
 }
 .kale-dor-kayiko_img img {
   padding-left: 2rem;
@@ -477,7 +476,7 @@ ul li ul {
   padding: 0 0 0 3%;
 }
 .padding-top {
-  padding-top: 0.5rem;
+  padding-top: 3rem;
 }
 .padding-top_1 {
   padding-top: 1.5rem;
@@ -615,15 +614,14 @@ ul li ul {
     width: 25%;
   }
 
-  #el-proyecto {
-    margin-top: 0;
+  #los-micromachismos {
     background-color: #26a9e0;
   }
   #header {
     width: 100%;
   }
 
-  #img-descripcion-proyecto, #txt-el-proyecto, #luis-bonino {
+  #img-descripcion-proyecto, #txt-los-micromachismos, #luis-bonino {
     display: inline-block;
     padding-top: 10%;
   }
@@ -643,7 +641,7 @@ ul li ul {
     border-right: 1px solid #76d9f3;
   }
 
-  #txt-el-proyecto {
+  #txt-los-micromachismos {
     width: 55%;
     float: right;
 
