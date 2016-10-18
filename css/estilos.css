@@ -295,6 +295,19 @@ ul li ul {
   height: 444px;
 }
 
+#img-promo {
+  text-align: center;
+  background-image: url("../img/fnd-micromachismos-chico-protagonista.png");
+  padding: 0;
+  margin: 0;
+  background-color: #f00;
+  height: 444px;
+}
+
+#img-promo img {
+  width: 20%;
+}
+
 #luis-bonino {
   background-color: #26a9e0;
   padding: 10%;
@@ -631,6 +644,7 @@ ul li ul {
     vertical-align: top;
   }
 
+
   #luis-bonino {
 
     padding-left: 0;
@@ -669,7 +683,7 @@ ul li ul {
     display: inline-block;
 
   }
-  #img-portada-web {
+  #img-portada-web, #img-promo {
     text-align: center;
     padding: 0;
     margin: 0 0 0 20%;
@@ -691,13 +705,13 @@ ul li ul {
     font-size: 40px;
   }
 
-  #img-portada-web, #slogan-portada-web {
+  #img-portada-web, #img-promo, #slogan-portada-web {
     display: inline-block;
     vertical-align: top;
   }
 
   #slogan-portada-web {
-    background-image: url("../img/fnd-micromachismos-chico-protagonista.png");
+    background-image: url("../img/fnd-micromachismos-chico-protagonista2.png");
     height: 444px;
     padding: 0;
     text-align: left;
