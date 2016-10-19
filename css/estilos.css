@@ -302,6 +302,7 @@ ul li ul {
   margin: 0;
   background-color: #f00;
   height: 444px;
+  width: 100%;
 }
 
 #img-promo {
@@ -735,7 +736,7 @@ span{
   #img-portada-web, #img-promo {
     text-align: center;
     padding: 0;
-    margin: 0 0 0 20%;
+    margin: 0;
     height: 444px;
 
   }
