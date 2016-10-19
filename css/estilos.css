@@ -312,11 +312,9 @@ ul li ul {
 
 #img-promo {
   text-align: center;
-  background-image: url("../img/fnd-micromachismos-chico-protagonista.png");
-  background-repeat: repeat-x;
   padding: 0;
   margin: 0 0 20% 0;
-  background-color: white;
+
   height: 644px;
 }
 
@@ -362,6 +360,11 @@ ul li ul {
 }
 #mujer img {
   width: 100%;
+}
+
+#promo {
+  background-image: url("../img/fnd-micromachismos-chico-protagonista.png");
+
 }
 #redes-sociales-quien-soy img,
 #redes-sociales-proyecto img {
@@ -519,7 +522,6 @@ ul li ul {
 }
 
 .promocion {
-  background-image: url("../img/fnd-micromachismos-chico-protagonista.png");
   padding: 0;
 }
 .quien_soy {
@@ -646,7 +648,7 @@ span{
     text-align: left;
   }
   h3 {
-  
+
 
   }
   ol,
