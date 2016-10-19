@@ -245,6 +245,15 @@ h3 {
   font-size: 1.5rem;
   font-weight: 600;
   margin-top: 0;
+  padding-bottom: 0;
+}
+
+h4 {
+  font-size: 2rem;
+}
+
+p {
+  font-family: 'Open Sans', 'verdana';
 }
 
 ul {
@@ -298,14 +307,15 @@ ul li ul {
 #img-promo {
   text-align: center;
   background-image: url("../img/fnd-micromachismos-chico-protagonista.png");
+  background-repeat: repeat-x;
   padding: 0;
-  margin: 0;
-  background-color: #f00;
-  height: 444px;
+  margin: 0 0 20% 0;
+  background-color: white;
+  height: 644px;
 }
 
 #img-promo img {
-  width: 20%;
+  width: 30%;
 }
 
 #luis-bonino {
@@ -317,9 +327,6 @@ ul li ul {
 
 #slogan-portada-web {
   background-color: white;
-  font-size: 2.5em;
-  font-family: Open Sans, sans-serif;
-  font-weight: normal;
   margin: 0;
   text-align: center;
   height: auto;
@@ -442,8 +449,11 @@ ul li ul {
 }
 
 .infografia-1 h4 {
-  padding: 0 0 0 3%;
+  padding: 0;
+  margin: 0;
 }
+
+
 
 .infografia-1 p {
   font-size: 20px;
@@ -571,8 +581,46 @@ ul li ul {
 .sobre_fondo_claro {
   color: #2c85dd;
 }
+
+.slogan-portada-web {
+  font-size: 2.5em;
+  font-family: Open Sans, sans-serif;
+  font-weight: normal;
+  margin-top: 0;
+  padding-top: 0;
+  }
 .tabulado {
   padding-left: 0.9rem;
+}
+
+.texto-invertir {
+  color: white;
+  background-color: red;
+}
+
+.texto-reducir {
+  font-size: 70%;
+}
+
+.texto-eliminar-padding-bottom {
+  padding-bottom:0;
+  margin-bottom: 0;
+}
+
+.texto-eliminar-padding-top {
+  padding-top: 0;
+  margin-top: 0;
+}
+
+
+.texto-forzar-interlineado {
+  line-height: 0px;
+  height: 0px;
+}
+
+span{
+  padding:0;
+  margin: 0;
 }
 .time {
   font-family: times;
@@ -594,6 +642,7 @@ ul li ul {
   h3 {
     padding-left: 4rem;
     padding-right: 3rem;
+
   }
   ol,
   li {
@@ -688,7 +737,7 @@ ul li ul {
     padding: 0;
     margin: 0 0 0 20%;
     height: 444px;
-    width: 20%;
+
   }
   #main {
     max-width: 850px;
