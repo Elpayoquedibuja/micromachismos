@@ -310,16 +310,27 @@ ul li ul {
   width: 100%;
 }
 
+#promo {
+  background-image: url("../img/fnd-micromachismos-chico-protagonista.png");
+  background-repeat: repeat-x;
+}
+
 #img-promo {
   text-align: center;
   padding: 0;
-  margin: 0 0 20% 0;
-
-  height: 644px;
 }
 
 #img-promo img {
   width: 30%;
+}
+
+#txt-promo {
+  text-align: center;
+  vertical-align: top;
+}
+
+#img-promo, #txt-promo {
+  display: block;
 }
 
 #luis-bonino {
@@ -362,10 +373,6 @@ ul li ul {
   width: 100%;
 }
 
-#promo {
-  background-image: url("../img/fnd-micromachismos-chico-protagonista.png");
-
-}
 #redes-sociales-quien-soy img,
 #redes-sociales-proyecto img {
   width: 100%;
