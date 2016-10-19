@@ -1,3 +1,5 @@
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
 /* normalize.css v3.0.0 | MIT License | git.io/normalize */
 html {
   font-family: sans-serif;
@@ -716,6 +718,29 @@ span{
     vertical-align: top;
   }
 
+  #img-promo, #txt-promo {
+    display: inline-block;
+    height: 444px;
+  }
+
+  #img-promo {
+    float: right;
+    text-align: left;
+    width: 30%;
+  }
+
+
+#img-promo img{
+    width: 60%;
+}
+
+  #txt-promo {
+    width: 68%;
+    vertical-align: top;
+    padding-left: 15%;
+    padding-top: 10%;
+  }
+
 
   #luis-bonino {
 
@@ -755,7 +780,7 @@ span{
     display: inline-block;
 
   }
-  #img-portada-web, #img-promo {
+  #img-portada-web {
     text-align: center;
     padding: 0;
     margin: 0;
