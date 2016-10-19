@@ -646,8 +646,7 @@ span{
     text-align: left;
   }
   h3 {
-    padding-left: 4rem;
-    padding-right: 3rem;
+  
 
   }
   ol,
@@ -663,9 +662,7 @@ span{
     width: 80%;
   }
   p {
-    /*font-size: 20px;*/
-    padding-left: 4rem;
-    padding-right: 3rem;
+
   }
 
   ul {
