@@ -272,7 +272,7 @@ ul li ul {
 
 #copa-champions img {
   text-align: right;
-  width: 50%;
+  width: 30%;
 }
 
 #episodio-1 {
@@ -337,9 +337,9 @@ ul li ul {
 
 #luis-bonino {
   background-color: #26a9e0;
-  padding: 10%;
   vertical-align: top;
   margin-top: 0;
+  padding-bottom: 5%;
 }
 
 #slogan-portada-web {
@@ -397,9 +397,7 @@ ul li ul {
   font-style: normal;
   font-weight: bold;
 }
-.alinear_a_la_izquierda {
-  text-align: left;
-}
+
 .azul_player {
   color: #26a9e0;
   font-weight: bold;
@@ -656,10 +654,7 @@ span{
   h1 {
     text-align: left;
   }
-  h3 {
 
-
-  }
   ol,
   li {
     padding-left: 0rem;
@@ -710,7 +705,6 @@ span{
 
   #img-descripcion-proyecto, #txt-los-micromachismos, #luis-bonino {
     display: inline-block;
-    padding-top: 10%;
   }
 
   #img-descripcion-proyecto, #luis-bonino {
@@ -730,31 +724,27 @@ span{
   }
 
 
-#img-promo img{
+  #img-promo img{
     width: 60%;
 }
 
-  #txt-promo {
-    width: 68%;
-    vertical-align: top;
-    padding-left: 15%;
-    padding-top: 10%;
-  }
-
 
   #luis-bonino {
+    width: 40%;
+    padding-top: 10%;
+    height: 374px;
+  }
 
-    padding-left: 0;
-    padding-righ: 0;
-    margin-left: 0;
-    margin-right: 0;
-    width: 30%;
-    border-right: 1px solid #76d9f3;
+  #luis-bonino h3 {
+    font-size: 80%;
   }
 
   #txt-los-micromachismos {
     width: 55%;
-    float: right;
+    float: right;   /* quito de momento el float */
+    border-left: 1px solid #76d9f3;
+    padding-right: 5%;
+    height: 800px;
 
   }
 
