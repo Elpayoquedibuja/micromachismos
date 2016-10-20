@@ -714,7 +714,7 @@ span{
 
   #img-promo, #txt-promo {
     display: inline-block;
-    height: 444px;
+    height: 380px;
   }
 
   #img-promo {
@@ -723,10 +723,15 @@ span{
     width: 30%;
   }
 
-
   #img-promo img{
-    width: 60%;
+    width: 50%;
 }
+
+  #txt-promo {
+    padding-left: 10%;
+    padding-top: 5%;
+    width: 60%;
+  }
 
 
   #luis-bonino {
