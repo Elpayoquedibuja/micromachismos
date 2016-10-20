@@ -342,24 +342,10 @@ ul li ul {
   padding-bottom: 5%;
 }
 
-#slogan-portada-web {
-  background-color: white;
-  margin: 0;
-  text-align: center;
-  height: auto;
-  vertical-align: top;
-  padding: 0 2% 0 2%;
+#hombre img {
+  width: 100%;
 }
 
-#info-autor {
-
-}
-
-
-
-#info-proyecto {
-
-}
 #linkedin,
 #twitter,
 #github {
@@ -379,6 +365,16 @@ ul li ul {
 #redes-sociales-proyecto img {
   width: 100%;
 }
+
+#slogan-portada-web {
+  background-color: white;
+  margin: 0;
+  text-align: center;
+  height: auto;
+  vertical-align: top;
+  padding: 0 2% 0 2%;
+}
+
 #subtitulo-principal {
   background-color: white;
   height: 280px;
@@ -701,6 +697,15 @@ span{
   #episodio-1 img {
     width: 70%;
     text-align: center;
+  }
+
+  #hombre, #mujer {
+    display: inline-block;
+    width: 49%;
+  }
+
+  #mujer {
+    margin-left: 0.7%;
   }
 
   #img-descripcion-proyecto, #txt-los-micromachismos, #luis-bonino {
