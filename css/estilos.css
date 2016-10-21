@@ -461,7 +461,6 @@ ul li ul {
 }
 
 .infografia-1 h4 {
-  padding: 0;
   margin: 0;
 }
 
@@ -512,6 +511,10 @@ ul li ul {
 }
 .padding-top {
   padding-top: 3rem;
+}
+
+.padding-top_0 {
+  padding-top: 0.8rem;
 }
 .padding-top_1 {
   padding-top: 1.5rem;
@@ -831,5 +834,9 @@ span{
   .kale-dor-kayiko_img2 img {
     padding-left: 5rem;
     width: 30%;
+  }
+  .texto-alinear-a-la-derecha {
+    text-align: right;
+    padding-right: 3%;
   }
 }
