@@ -575,6 +575,15 @@ ul li ul {
   margin: 50px 0;
   padding: 25px 14px;
 }
+
+.reducir-el-interlineado {
+  line-height: 70%;
+}
+
+.resaltar_0 {
+  font-weight: bold;
+
+}
 .resaltar-solo-bottom {
   border-bottom: 1px solid #777878;
   margin: 10px 0;
