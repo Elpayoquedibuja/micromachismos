@@ -511,8 +511,12 @@ ul li ul {
   margin-bottom: 0.5rem;
 }
 
+.padding-right {
+  padding-right: 2%;
+}
+
 .padding-texto {
-  padding: 0 0 0 3%;
+  padding: 0 3% 0 3%;
 }
 .padding-top {
   padding-top: 3rem;
